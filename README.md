@@ -7,6 +7,8 @@ La pagina esta dividida en 3 elementos html, el menu principal (index.html), el 
 Todas las paginas contienenen un icono que es visible en el head de la pagina, junto con una palabra clave para identificar donde se encuentra.
 Todas las paginas incluyen una foto horizontal para introducir la pagina, un menu por donde puedan navegar a las diferentes secciones (nav con display tipo flex)  y al final de la pagina un footer para acceder a diferentes redes donde encontrar el perfil de la persona.
 
+Se ha cambiado la fuente y colores de algunas cabeceras, incluido margenes en las paginas y puesto como color por defecto un blanco "snow".
+
 Pagina Principal:
 La página principal está orientada para que el user pueda poner informacion sobre si mismo, ya sean aficiones, descripcion, puntos fuertes y fkacos, habilidades profesionales... y que esta descripcion este acompañada de una foro del candidato a su derecha.
 Para conseguir esto se ha dividido el espacio en 2 inline-block y definido diferentes porcentajes de espacio cada uno para que ambos se muestren en pantalla en la misma linea horizontal.
