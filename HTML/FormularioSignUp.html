@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<title> Contactame</title>
+		<link rel="icon" href="../Images/lupaicono.png">
+		<link rel="stylesheet" href="../CSS/CSSstyle.css">
+	</head>
+
+	<body style= "background-image: url(../Images/wallpaper_color_mix.jpg);">
+
+
+		<nav>
+			<ul class= "menu">  <!-- UL= unordered list-->
+				<li>   <!-- LI= list item-->
+					<a href="./Main.html">About me</a>  <!-- A= elemento ancla, enlace a otras localizaciones-->
+				</li>
+
+				<li>
+					<a href="#">Experience</a>
+				</li>
+
+				<li>
+					<a href="./FormularioSignUp.html">Contact me</a>
+				</li>
+			</ul>
+		</nav>
+
+	<div class="caja_traslucida">
+		<form action="./Main.html" method="post">
+			<h3>Thank you for your interest!</h3>
+			<p>Please fill up this form to get in touch</p>
+
+			<div class="grid3x2">
+				<label for="nombre" class="label1">Name: </label>
+				<input class=input1 required="required" placeholder="Name" type="text" id="nombre" name="nombre">
+
+				<label for="apellido" class="label2">Surname: </label>
+				<input class=input2 required="required" placeholder="Surname" type="text" id="apellido" name="apellido">
+
+				<label for="mail" class="label3">Email: </label>
+				<input class=input3 required="required" placeholder="yourmail@domain.ext" type="text" id="mail" name="mail">
+
+				<label for="genero" class="label4">Gender: </label>
+				<select class=input4 name="select">
+					<option value="hombre">Male</option>
+					<option value="mujer">Female</option>			
+					<option value="otro">Other</option>
+				</select>
+			</div>
+
+			<br>
+			<a for="disclaimer" href="https://www.aepd.es/es/politica-de-privacidad-y-aviso-legal">I accept the privacy terms and conditions</a>		
+			<input required="required" type="checkbox" checked="checked" id="disclaimer" name="disclaimer">  
+			<br><br>
+			<button class="accept" focus="true" type="submit">Accept </button>
+
+			<button class="reset" id="reset" type="reset"> Erase all </button>
+		</form>
+		<br>
+	<div>
+
+	<div class="alert">
+		<span class="popup_close" onclick="this.parentElement.style.display='none';">
+			&times;
+
+		</span>
+		Please be sure to fill out all information
+
+	</div>
+
+	<a href="./Main.html"> Go back to menu </a>
+
+	</body>
+
+</html>
