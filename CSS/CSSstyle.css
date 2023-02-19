@@ -1,12 +1,18 @@
-
-
-
 body {
   background-color: snow;
-
   /* Colores https://www.w3.org/wiki/CSS/Properties/color/keywords */
   margin-left: 10%;
   margin-right:10%;
+}
+
+body#fondo_colorido{
+  background-color: snow;
+  margin-left: 10%;
+  margin-right:10%;
+  background-image: url(../Images/wallpaper_color_mix.jpg);   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #foto_inicio{
@@ -30,7 +36,9 @@ h2 {
 
 h3{
   color:navy;
-  text-align: center; 
+  text-align: left; 
+  font: 26px sans-serif ;
+
 }
 
 
@@ -125,15 +133,19 @@ select{
 }
 
 div.caja_traslucida{
-  background: rgba(211,154,233,0.7);
-  display: inline-block; height:60%; width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  background: rgba(155,203,252,0.7);
+  display: inline-block;
+  height:100%; width: 70%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 2em;
+  /*
   position: absolute;
-  top: 20%;
+  top: 40%;
+  */
   justify-content: center;
   padding-bottom: 5%;
+  padding-top:5%;
   text-align: center}
 
 div.grid3x2{
@@ -212,6 +224,8 @@ div.grid3x2{
 
 .menu li{
   flex: auto;  /*flex-glox \ flex-shrink \ flex-basics */
+  color:white;
+
 }
 
 .menu li:hover{  /*Modifica lo que ocurre cuando paso el cursor por encima*/
@@ -219,17 +233,12 @@ div.grid3x2{
 }
 
 .menu a{
-  font: 100%;
   text-align: center;
   display: block;
   padding: 5%;
   color: white;
   user-select: none;
 }
-
-
-
-
 
 
 
