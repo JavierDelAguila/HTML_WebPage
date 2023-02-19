@@ -9,6 +9,7 @@ Todas las paginas incluyen una foto horizontal para introducir la pagina, un men
 
 Se ha cambiado la fuente y colores de algunas cabeceras, incluido margenes en las paginas y puesto como color por defecto un blanco "snow".
 
+
 Pagina Principal:
 La página principal está orientada para que el user pueda poner informacion sobre si mismo, ya sean aficiones, descripcion, puntos fuertes y fkacos, habilidades profesionales... y que esta descripcion este acompañada de una foro del candidato a su derecha.
 Para conseguir esto se ha dividido el espacio en 2 inline-block y definido diferentes porcentajes de espacio cada uno para que ambos se muestren en pantalla en la misma linea horizontal.
@@ -16,9 +17,11 @@ Para conseguir esto se ha dividido el espacio en 2 inline-block y definido difer
 Un encabezado h3 muestra el siguente apartado, los idiomas, donde un parrafo le sigue para explicar que será a traves de una tabla donde se concentre esta infomracion.
 La tabla muestra 3 columnas y 5 filas con los idiomas del usuario e informacion adicional. Para afianzar el conocimiento de CSS se ha pintado la fila cabecera de un color, y las filas pares e impares de otro cada una.
 
+
 Experiencia:
 En esta pagina se ha impplementado Bootstrap para realizar un carrusel de imagenes donde se pueda ver una imagen relacionada con experiencia laboral del usuario, y un pie de foto donde se ha utiilzado una cabecera y parrafos para añadir informacion. Este carrusel es dinamico, se mueve a peticion del usuario utilizando las flechas a los lados de la imagen y tambien con las pestañas inferiores.
 Ademas de esto, se ha incluido informacion de cada trabajo utilizando una cabecera principal para denotar la empresa, un subtitulo (otra cabecera) para el puesto ocupado, otra cabecera inferior para mostrar el tiempo de trabajo en esta empresa y finalmente parrafos para explicar el trabajo realizado.
+
 
 
 Formulario:
